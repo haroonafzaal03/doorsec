@@ -1,0 +1,26 @@
+{
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "editor.scrollBeyondLastLine": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.formatOnType": true,
+    "editor.renderControlCharacters": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "window.title": "${activeEditorShort}${separator}${rootName}/${activeEditorMedium}",
+    "workbench.editor.enablePreview": false,
+    // extensions
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "on",
+    "extensions.ignoreRecommendations": true,
+    "window.zoomLevel": 1,
+    "files.associations": {
+    "*.rule": "csharp"
+    },
+    "explorer.confirmDragAndDrop": false,
+
+    "workbench.sideBar.location": "left"
+    }

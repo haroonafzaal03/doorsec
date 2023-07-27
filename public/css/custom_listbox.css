@@ -1,0 +1,163 @@
+
+        .example {
+            padding-top: 100px;
+        }
+
+        .jumbotron {
+            background-color: transparent;
+            text-align: center;
+            text-transform: uppercase;
+            border-bottom: 1px solid #d1d1d1;
+            box-shadow: 0 1px 0 #fff;
+            border-radius: 0;
+        }
+
+        p > small {
+            color: #aaa;
+        }
+
+        small.smaller {
+            font-size: 14px;
+            text-transform: none;
+            padding-top: 15px;
+            display: block;
+        }
+
+        .customlist {
+            background-color: #fff;
+            border: 1px solid #999;
+            height: 500px;
+            min-height: 500px;
+            overflow: scroll;
+            box-shadow: 0px 5px 5px #dfdfdf;
+        }
+
+        .customlist .tile {
+            padding: 5px;
+            margin: 5px 0;
+            opacity: 0.75;
+            border: 2px solid transparent;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .customlist .tile.selected {
+            opacity: 1;
+            border: 2px solid #E74C3C;
+        }
+
+        .customlist table {
+            width: 100%;
+        }
+
+        .customlist table td {
+            padding: 5px;
+        }
+
+        .customlist table tr {
+            cursor: pointer;
+        }
+
+        .customlist table tr:hover {
+            background-color: #eee;
+        }
+
+        .customlist table tr.selected .glyphicon-check {
+            color: #E74C3C;
+        }
+
+        .customlist ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        .customlist ul li {
+            padding: 5px;
+            width: 100%;
+            cursor: pointer;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .customlist ul li .glyphicon {
+            /*padding-right: 10px;*/
+            float: right;
+            color: #000;
+        }
+
+        .customlist ul li.selected .glyphicon {
+            color: #fff;
+        }
+
+        .customlist ul li .glyphicon-ok {
+            color: #fff;
+            float: none;
+            padding-right: 10px;
+        }
+
+        .customlist ul li small {
+            /* display: block; */
+        }
+
+        .customlist ul li:hover {
+            background-color: #eee;
+        }
+
+        .customlist ul li.selected {
+            background-color: #00a65a;
+            font-weight: bold;
+            color: #fff;
+        }
+        .customlist ul li.selected small {
+            color: #fff;
+        }
+
+        .staff_list_view,.user_image {
+            width: 40px;
+            height: 40px;
+       }
+       ul.users_multi_listbox li img{
+        width: 20px;
+        height: 20px;
+        }
+
+
+        ul#staffList_filled li[data-dropout="true"],
+        ul#staffList_filled li[data-dropout="true"] small {
+            pointer-events: none;
+            cursor: pointer;
+            background: #d66b6b;
+            color: #fff;
+        }
+
+        ul#staffList_new li[data-view="off"],
+        ul#staffList_new li.disable{
+            display:none !important;
+        }
+        ul#staffList_new li[data-view="on"]{
+            display:block;
+        }
+
+
+        #staffList_filled span.list_staff_contact_no {
+            display: block;
+            margin: 0 58px;
+        }
+
+        #staffList_new  span.list_staff_contact_no {
+            display: block;
+            margin: 0 40px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
